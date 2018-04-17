@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>PIXART CHAT</title>
+    <link href="/webjars/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container">
+    <h3 align="center">Pixart Chat</h3>
+    <label for="username">Tu nombre:</label>
+    <input id="username" type="text">
+    <p id="incoming-messages" class="bg-light"></p>
+    <input id="text-input" type="text">
+    <button id="send-button">ENVIAR</button>
+</div>
+<script src="/webjars/jquery/jquery.min.js"></script>
+<script src="/webjars/sockjs-client/sockjs.min.js"></script>
+<script src="/webjars/stomp-websocket/stomp.min.js"></script>
+<script src="/app.js"></script>
+</body>
+</html>
